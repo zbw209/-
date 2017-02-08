@@ -11,17 +11,28 @@ import UIKit
 
 class RuntimeViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
+    var name :String?
+    
+    func method1() -> Void {
         
-        var methodListCount : UInt32 = 0
-       let methodList = class_copyMethodList(NSClassFromString("RuntimeViewController"), &methodListCount)
-
-        for index in 0..<numericCast(methodListCount) {
+    }
+    func method2() -> Void {
         
-        }
+    }
+    func method3() -> Void {
+        
     }
 
-
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        print("111111111")
+        var methodListCount : UInt32 = 0
+       let methodList = class_copyMethodList(NSClassFromString("RuntimeViewController"), &methodListCount)
+        
+        print("methodListCount = \(methodListCount)")
+        
+        for index in 0..<numericCast(methodListCount) {
+            print("methodName is \(method_getName(methodList?[index]))")
+        }
+    }
 }
