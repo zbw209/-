@@ -19,6 +19,8 @@
 		63718B591E4AAF49003D8BA9 /* DatabaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63718B581E4AAF49003D8BA9 /* DatabaseViewController.swift */; };
 		63718B5C1E4AAF5A003D8BA9 /* DatabaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 63718B5B1E4AAF5A003D8BA9 /* DatabaseVC.m */; };
 		63718B5F1E4AB00E003D8BA9 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 63718B5E1E4AB00E003D8BA9 /* libsqlite3.0.tbd */; };
+		63A98F941E52A8A40088E81B /* AnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A98F931E52A8A40088E81B /* AnimationVC.m */; };
+		63A98F961E52A8B20088E81B /* Animation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A98F951E52A8B20088E81B /* Animation.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,9 @@
 		63718B5A1E4AAF5A003D8BA9 /* DatabaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseVC.h; sourceTree = "<group>"; };
 		63718B5B1E4AAF5A003D8BA9 /* DatabaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseVC.m; sourceTree = "<group>"; };
 		63718B5E1E4AB00E003D8BA9 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		63A98F921E52A8A40088E81B /* AnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationVC.h; sourceTree = "<group>"; };
+		63A98F931E52A8A40088E81B /* AnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationVC.m; sourceTree = "<group>"; };
+		63A98F951E52A8B20088E81B /* Animation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Animation.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +88,7 @@
 		6327AE451E480BEE00ABEFF1 /* 知识点 */ = {
 			isa = PBXGroup;
 			children = (
+				63A98F911E52A8620088E81B /* 动画 */,
 				6327AE471E480C8B00ABEFF1 /* Runtime运行时机制 */,
 				63718B551E4AAED2003D8BA9 /* 数据持久化 */,
 			);
@@ -130,6 +136,16 @@
 				63718B5E1E4AB00E003D8BA9 /* libsqlite3.0.tbd */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63A98F911E52A8620088E81B /* 动画 */ = {
+			isa = PBXGroup;
+			children = (
+				63A98F951E52A8B20088E81B /* Animation.storyboard */,
+				63A98F921E52A8A40088E81B /* AnimationVC.h */,
+				63A98F931E52A8A40088E81B /* AnimationVC.m */,
+			);
+			path = "动画";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +212,7 @@
 				6327AE3E1E480BB700ABEFF1 /* LaunchScreen.storyboard in Resources */,
 				6322229F1E499F69002361B2 /* Runtime.storyboard in Resources */,
 				63718B571E4AAEED003D8BA9 /* Database.storyboard in Resources */,
+				63A98F961E52A8B20088E81B /* Animation.storyboard in Resources */,
 				6327AE3B1E480BB700ABEFF1 /* Assets.xcassets in Resources */,
 				6327AE391E480BB700ABEFF1 /* Main.storyboard in Resources */,
 			);
@@ -213,6 +230,7 @@
 				6327AE361E480BB700ABEFF1 /* ViewController.swift in Sources */,
 				6327AE341E480BB700ABEFF1 /* AppDelegate.swift in Sources */,
 				6327AE4D1E480EC300ABEFF1 /* RuntimeVC.m in Sources */,
+				63A98F941E52A8A40088E81B /* AnimationVC.m in Sources */,
 				63718B591E4AAF49003D8BA9 /* DatabaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

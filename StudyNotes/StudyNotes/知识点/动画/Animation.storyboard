@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="YPJ-gd-04B">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--AnimationVC-->
+        <scene sceneID="prP-Hn-JZv">
+            <objects>
+                <viewController storyboardIdentifier="AnimationVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="YPJ-gd-04B" customClass="AnimationVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dIL-cd-jBB"/>
+                        <viewControllerLayoutGuide type="bottom" id="WjU-IY-oIV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qAd-hv-oYW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kbl-P4-A0u">
+                                <rect key="frame" x="20" y="323.5" width="60" height="20"/>
+                                <color key="backgroundColor" red="0.94901960780000005" green="0.24448903380000001" blue="0.19161920260000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="4DA-kf-ZTb"/>
+                                    <constraint firstAttribute="height" constant="20" id="bYF-cj-j9M"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eZa-2r-yBy">
+                                <rect key="frame" x="0.0" y="627" width="375" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="uA4-DG-ObO"/>
+                                </constraints>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="bottomButtonPressed:" destination="YPJ-gd-04B" eventType="touchUpInside" id="1ee-0R-EP4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="eZa-2r-yBy" secondAttribute="trailing" id="BF5-aS-49x"/>
+                            <constraint firstItem="kbl-P4-A0u" firstAttribute="leading" secondItem="qAd-hv-oYW" secondAttribute="leading" constant="20" id="IFL-tb-IrX"/>
+                            <constraint firstItem="kbl-P4-A0u" firstAttribute="centerY" secondItem="qAd-hv-oYW" secondAttribute="centerY" id="Va7-f8-7aO"/>
+                            <constraint firstItem="eZa-2r-yBy" firstAttribute="leading" secondItem="qAd-hv-oYW" secondAttribute="leading" id="WJd-0n-jTH"/>
+                            <constraint firstItem="WjU-IY-oIV" firstAttribute="top" secondItem="eZa-2r-yBy" secondAttribute="bottom" id="mYd-j1-lV2"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="testView" destination="kbl-P4-A0u" id="9xV-kx-Urv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="liq-OW-m9s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-0.80000000000000004" y="81.409295352323838"/>
+        </scene>
+    </scenes>
+</document>
