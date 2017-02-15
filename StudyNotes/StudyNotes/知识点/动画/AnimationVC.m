@@ -30,7 +30,6 @@
 
 // 绘制三角形,使用CA动画
 - (void)drawTriangle {
-
     UIBezierPath *path = [UIBezierPath bezierPath];
     [path moveToPoint:(CGPoint){self.view.frame.size.width / 2, 50}];
     [path addLineToPoint:CGPointMake(self.view.frame.size.width / 2, 120)];
