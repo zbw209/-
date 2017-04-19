@@ -14,10 +14,15 @@ class SecondVC: UIViewController {
         super.viewDidLoad()
         
         print("\((#file).components(separatedBy: "/").last!) \(#line) \(#function) \(self.navigationController)")
-        self.navigationController?.navigationBar.backIndicatorImage = UIImage.init(named: "icon_back_normal")
-        self.navigationController?.navigationBar.backIndicatorTransitionMaskImage = UIImage.init(named: "icon_back_normal")
+        var image = UIImage.init(named: "icon_back_normal")
+        image = image?.withRenderingMode(UIImageRenderingMode.alwaysOriginal)
+        //       image?.renderingMode = UIImageRenderingMode.alwaysOriginal
         
-        self.navigationItem.backBarButtonItem = UIBarButtonItem.init(title: "1", style: UIBarButtonItemStyle.plain, target: nil, action: nil)
+        self.navigationController?.navigationBar.backIndicatorImage = image
+        
+        self.navigationController?.navigationBar.backIndicatorTransitionMaskImage = image
+        
+//        self.navigationItem.backBarButtonItem = UIBarButtonItem.init(title: "1", style: UIBarButtonItemStyle.plain, target: nil, action: nil)
         
         let label = UILabel.init(frame: CGRect.zero)
         label.textColor = UIColor.red
@@ -27,7 +32,6 @@ class SecondVC: UIViewController {
         let barButtonItem = UIBarButtonItem.init(customView: label)
         self.navigationItem.leftBarButtonItem = barButtonItem
         self.navigationItem.leftItemsSupplementBackButton = true
-        
         
         self.navigationController?.delegate = self
     }
