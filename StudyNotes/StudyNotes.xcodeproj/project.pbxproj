@@ -9,9 +9,12 @@
 /* Begin PBXBuildFile section */
 		6301DFC41E6CF706008045EA /* StructVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6301DFC31E6CF706008045EA /* StructVC.m */; };
 		6301DFC71E6D045B008045EA /* AnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6301DFC61E6D045B008045EA /* AnimationView.m */; };
-		630742BC1EA748E800185B45 /* NavigationController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630742BB1EA748E800185B45 /* NavigationController.storyboard */; };
-		630742BE1EA7498E00185B45 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630742BD1EA7498E00185B45 /* SecondVC.swift */; };
-		630742C01EA75CF500185B45 /* icon_back_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 630742BF1EA75CF500185B45 /* icon_back_normal@2x.png */; };
+		63033A461EB1DD8D00295342 /* icon_back_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63033A431EB1DD8D00295342 /* icon_back_normal@2x.png */; };
+		63033A471EB1DD8D00295342 /* NavigationController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63033A441EB1DD8D00295342 /* NavigationController.storyboard */; };
+		63033A481EB1DD8D00295342 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63033A451EB1DD8D00295342 /* SecondVC.swift */; };
+		63033A4E1EB1DE0900295342 /* PackageView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63033A4D1EB1DE0900295342 /* PackageView.storyboard */; };
+		63033A511EB1DE1A00295342 /* PullDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63033A501EB1DE1A00295342 /* PullDownView.m */; };
+		63033A541EB1DE4300295342 /* PackageViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 63033A531EB1DE4300295342 /* PackageViewVC.m */; };
 		6322229F1E499F69002361B2 /* Runtime.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6322229E1E499F69002361B2 /* Runtime.storyboard */; };
 		6327AE341E480BB700ABEFF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6327AE331E480BB700ABEFF1 /* AppDelegate.swift */; };
 		6327AE361E480BB700ABEFF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6327AE351E480BB700ABEFF1 /* ViewController.swift */; };
@@ -56,9 +59,14 @@
 		6301DFC31E6CF706008045EA /* StructVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StructVC.m; sourceTree = "<group>"; };
 		6301DFC51E6D045B008045EA /* AnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationView.h; sourceTree = "<group>"; };
 		6301DFC61E6D045B008045EA /* AnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationView.m; sourceTree = "<group>"; };
-		630742BB1EA748E800185B45 /* NavigationController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NavigationController.storyboard; sourceTree = "<group>"; };
-		630742BD1EA7498E00185B45 /* SecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
-		630742BF1EA75CF500185B45 /* icon_back_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_back_normal@2x.png"; sourceTree = "<group>"; };
+		63033A431EB1DD8D00295342 /* icon_back_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_back_normal@2x.png"; sourceTree = "<group>"; };
+		63033A441EB1DD8D00295342 /* NavigationController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NavigationController.storyboard; sourceTree = "<group>"; };
+		63033A451EB1DD8D00295342 /* SecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		63033A4D1EB1DE0900295342 /* PackageView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PackageView.storyboard; sourceTree = "<group>"; };
+		63033A4F1EB1DE1A00295342 /* PullDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullDownView.h; sourceTree = "<group>"; };
+		63033A501EB1DE1A00295342 /* PullDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullDownView.m; sourceTree = "<group>"; };
+		63033A521EB1DE4300295342 /* PackageViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PackageViewVC.h; sourceTree = "<group>"; };
+		63033A531EB1DE4300295342 /* PackageViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PackageViewVC.m; sourceTree = "<group>"; };
 		6322229E1E499F69002361B2 /* Runtime.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Runtime.storyboard; sourceTree = "<group>"; };
 		6327AE301E480BB700ABEFF1 /* StudyNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6327AE331E480BB700ABEFF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -149,14 +157,34 @@
 			path = "C语言";
 			sourceTree = "<group>";
 		};
-		630742BA1EA748D200185B45 /* NavigationConytoller */ = {
+		63033A421EB1DD8D00295342 /* NavigationController */ = {
 			isa = PBXGroup;
 			children = (
-				630742BF1EA75CF500185B45 /* icon_back_normal@2x.png */,
-				630742BB1EA748E800185B45 /* NavigationController.storyboard */,
-				630742BD1EA7498E00185B45 /* SecondVC.swift */,
+				63033A431EB1DD8D00295342 /* icon_back_normal@2x.png */,
+				63033A441EB1DD8D00295342 /* NavigationController.storyboard */,
+				63033A451EB1DD8D00295342 /* SecondVC.swift */,
 			);
-			path = NavigationConytoller;
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		63033A491EB1DDC200295342 /* 控件封装 */ = {
+			isa = PBXGroup;
+			children = (
+				63033A4D1EB1DE0900295342 /* PackageView.storyboard */,
+				63033A521EB1DE4300295342 /* PackageViewVC.h */,
+				63033A531EB1DE4300295342 /* PackageViewVC.m */,
+				63033A4A1EB1DDC300295342 /* 点击向下弹出视图 */,
+			);
+			path = "控件封装";
+			sourceTree = "<group>";
+		};
+		63033A4A1EB1DDC300295342 /* 点击向下弹出视图 */ = {
+			isa = PBXGroup;
+			children = (
+				63033A4F1EB1DE1A00295342 /* PullDownView.h */,
+				63033A501EB1DE1A00295342 /* PullDownView.m */,
+			);
+			path = "点击向下弹出视图";
 			sourceTree = "<group>";
 		};
 		6327AE271E480BB700ABEFF1 = {
@@ -189,7 +217,8 @@
 		6327AE451E480BEE00ABEFF1 /* 知识点 */ = {
 			isa = PBXGroup;
 			children = (
-				630742BA1EA748D200185B45 /* NavigationConytoller */,
+				63033A491EB1DDC200295342 /* 控件封装 */,
+				63033A421EB1DD8D00295342 /* NavigationController */,
 				637237CC1EA5B889008294B4 /* AFNetworking */,
 				6328A6331E6D3A8300A817C1 /* Swift语法 */,
 				6301DFC11E6CF6E1008045EA /* C语言 */,
@@ -413,12 +442,13 @@
 			files = (
 				6327AE3E1E480BB700ABEFF1 /* LaunchScreen.storyboard in Resources */,
 				6322229F1E499F69002361B2 /* Runtime.storyboard in Resources */,
-				630742BC1EA748E800185B45 /* NavigationController.storyboard in Resources */,
 				63718B571E4AAEED003D8BA9 /* Database.storyboard in Resources */,
 				6372380D1EA5BAF4008294B4 /* AFNetworking.storyboard in Resources */,
-				630742C01EA75CF500185B45 /* icon_back_normal@2x.png in Resources */,
 				63A98F961E52A8B20088E81B /* Animation.storyboard in Resources */,
+				63033A471EB1DD8D00295342 /* NavigationController.storyboard in Resources */,
+				63033A461EB1DD8D00295342 /* icon_back_normal@2x.png in Resources */,
 				6327AE3B1E480BB700ABEFF1 /* Assets.xcassets in Resources */,
+				63033A4E1EB1DE0900295342 /* PackageView.storyboard in Resources */,
 				6327AE391E480BB700ABEFF1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,6 +480,7 @@
 				637237FC1EA5B89A008294B4 /* AFSecurityPolicy.m in Sources */,
 				6301DFC71E6D045B008045EA /* AnimationView.m in Sources */,
 				637238051EA5B89A008294B4 /* UIImageView+AFNetworking.m in Sources */,
+				63033A541EB1DE4300295342 /* PackageViewVC.m in Sources */,
 				637237FB1EA5B89A008294B4 /* AFNetworkReachabilityManager.m in Sources */,
 				637238001EA5B89A008294B4 /* AFURLSessionManager.m in Sources */,
 				63A98F941E52A8A40088E81B /* AnimationVC.m in Sources */,
@@ -460,7 +491,8 @@
 				637237FF1EA5B89A008294B4 /* AFURLResponseSerialization.m in Sources */,
 				637238041EA5B89A008294B4 /* UIButton+AFNetworking.m in Sources */,
 				6372380B1EA5B8C5008294B4 /* AFNetworkingVC.m in Sources */,
-				630742BE1EA7498E00185B45 /* SecondVC.swift in Sources */,
+				63033A481EB1DD8D00295342 /* SecondVC.swift in Sources */,
+				63033A511EB1DE1A00295342 /* PullDownView.m in Sources */,
 				639C76011E53ED3F009E3675 /* LianShiVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
