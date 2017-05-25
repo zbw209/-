@@ -7,7 +7,6 @@
 //
 
 #import "RuntimeVC.h"
-#import <objc/runtime.h>
 #import <objc/message.h>
 
 @interface RuntimeVC ()
@@ -28,7 +27,26 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self property];
+//    [self property];
+    [self getProperty:[UIView class]];
+    
+    UIView *view = [[UIView alloc]init];
+
+}
+
+- (void)getProperty:(Class)aClass {
+
+    unsigned int count = 0;
+    objc_property_t * propertyList = class_copyPropertyList(aClass, &count);
+    
+    for (int i = 0; i < count; i++) {
+        objc_property_t property = *(propertyList + i);
+        
+        NSLog(@" %s , %s",class_getName(aClass),property_getName(property));
+        
+    }
+    
+    
 }
 
 /*

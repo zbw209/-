@@ -24,6 +24,8 @@
 		6327AE491E480CAE00ABEFF1 /* RuntimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6327AE481E480CAE00ABEFF1 /* RuntimeViewController.swift */; };
 		6327AE4D1E480EC300ABEFF1 /* RuntimeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6327AE4C1E480EC300ABEFF1 /* RuntimeVC.m */; };
 		6328A6371E6D3ACA00A817C1 /* SwiftProgramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6328A6361E6D3ACA00A817C1 /* SwiftProgramViewController.swift */; };
+		635039DE1EC56482003D4370 /* AVFoundationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635039DD1EC56482003D4370 /* AVFoundationVC.swift */; };
+		635039E01EC5648C003D4370 /* AVFoundation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635039DF1EC5648C003D4370 /* AVFoundation.storyboard */; };
 		63718B571E4AAEED003D8BA9 /* Database.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63718B561E4AAEED003D8BA9 /* Database.storyboard */; };
 		63718B591E4AAF49003D8BA9 /* DatabaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63718B581E4AAF49003D8BA9 /* DatabaseViewController.swift */; };
 		63718B5C1E4AAF5A003D8BA9 /* DatabaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 63718B5B1E4AAF5A003D8BA9 /* DatabaseVC.m */; };
@@ -52,6 +54,9 @@
 		639C76041E53ED53009E3675 /* LianShiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 639C76031E53ED53009E3675 /* LianShiView.m */; };
 		63A98F941E52A8A40088E81B /* AnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A98F931E52A8A40088E81B /* AnimationVC.m */; };
 		63A98F961E52A8B20088E81B /* Animation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A98F951E52A8B20088E81B /* Animation.storyboard */; };
+		63E9608F1ED287510064EA8A /* Hobby.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E9608E1ED287510064EA8A /* Hobby.swift */; };
+		63E960911ED288740064EA8A /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E960901ED288740064EA8A /* Student.swift */; };
+		63FF2B531EBB1F11004EB150 /* SwiftGrammar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FF2B521EBB1F11004EB150 /* SwiftGrammar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +85,8 @@
 		6327AE4B1E480EC300ABEFF1 /* RuntimeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeVC.h; sourceTree = "<group>"; };
 		6327AE4C1E480EC300ABEFF1 /* RuntimeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeVC.m; sourceTree = "<group>"; };
 		6328A6361E6D3ACA00A817C1 /* SwiftProgramViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftProgramViewController.swift; sourceTree = "<group>"; };
+		635039DD1EC56482003D4370 /* AVFoundationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVFoundationVC.swift; sourceTree = "<group>"; };
+		635039DF1EC5648C003D4370 /* AVFoundation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AVFoundation.storyboard; sourceTree = "<group>"; };
 		63718B561E4AAEED003D8BA9 /* Database.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Database.storyboard; sourceTree = "<group>"; };
 		63718B581E4AAF49003D8BA9 /* DatabaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseViewController.swift; sourceTree = "<group>"; };
 		63718B5A1E4AAF5A003D8BA9 /* DatabaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseVC.h; sourceTree = "<group>"; };
@@ -134,6 +141,9 @@
 		63A98F921E52A8A40088E81B /* AnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationVC.h; sourceTree = "<group>"; };
 		63A98F931E52A8A40088E81B /* AnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationVC.m; sourceTree = "<group>"; };
 		63A98F951E52A8B20088E81B /* Animation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Animation.storyboard; sourceTree = "<group>"; };
+		63E9608E1ED287510064EA8A /* Hobby.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hobby.swift; sourceTree = "<group>"; };
+		63E960901ED288740064EA8A /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		63FF2B521EBB1F11004EB150 /* SwiftGrammar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftGrammar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,10 +180,10 @@
 		63033A491EB1DDC200295342 /* 控件封装 */ = {
 			isa = PBXGroup;
 			children = (
+				63033A4A1EB1DDC300295342 /* 点击向下弹出视图 */,
 				63033A4D1EB1DE0900295342 /* PackageView.storyboard */,
 				63033A521EB1DE4300295342 /* PackageViewVC.h */,
 				63033A531EB1DE4300295342 /* PackageViewVC.m */,
-				63033A4A1EB1DDC300295342 /* 点击向下弹出视图 */,
 			);
 			path = "控件封装";
 			sourceTree = "<group>";
@@ -217,6 +227,8 @@
 		6327AE451E480BEE00ABEFF1 /* 知识点 */ = {
 			isa = PBXGroup;
 			children = (
+				63E960791ED284F80064EA8A /* 单元测试 */,
+				635039DC1EC56447003D4370 /* AVFundation */,
 				63033A491EB1DDC200295342 /* 控件封装 */,
 				63033A421EB1DD8D00295342 /* NavigationController */,
 				637237CC1EA5B889008294B4 /* AFNetworking */,
@@ -258,8 +270,18 @@
 			isa = PBXGroup;
 			children = (
 				6328A6361E6D3ACA00A817C1 /* SwiftProgramViewController.swift */,
+				63FF2B521EBB1F11004EB150 /* SwiftGrammar.swift */,
 			);
 			path = "Swift语法";
+			sourceTree = "<group>";
+		};
+		635039DC1EC56447003D4370 /* AVFundation */ = {
+			isa = PBXGroup;
+			children = (
+				635039DF1EC5648C003D4370 /* AVFoundation.storyboard */,
+				635039DD1EC56482003D4370 /* AVFoundationVC.swift */,
+			);
+			path = AVFundation;
 			sourceTree = "<group>";
 		};
 		63718B551E4AAED2003D8BA9 /* 数据持久化 */ = {
@@ -379,6 +401,15 @@
 			path = "动画";
 			sourceTree = "<group>";
 		};
+		63E960791ED284F80064EA8A /* 单元测试 */ = {
+			isa = PBXGroup;
+			children = (
+				63E9608E1ED287510064EA8A /* Hobby.swift */,
+				63E960901ED288740064EA8A /* Student.swift */,
+			);
+			path = "单元测试";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -446,6 +477,7 @@
 				6372380D1EA5BAF4008294B4 /* AFNetworking.storyboard in Resources */,
 				63A98F961E52A8B20088E81B /* Animation.storyboard in Resources */,
 				63033A471EB1DD8D00295342 /* NavigationController.storyboard in Resources */,
+				635039E01EC5648C003D4370 /* AVFoundation.storyboard in Resources */,
 				63033A461EB1DD8D00295342 /* icon_back_normal@2x.png in Resources */,
 				6327AE3B1E480BB700ABEFF1 /* Assets.xcassets in Resources */,
 				63033A4E1EB1DE0900295342 /* PackageView.storyboard in Resources */,
@@ -470,17 +502,20 @@
 				637237FD1EA5B89A008294B4 /* AFURLConnectionOperation.m in Sources */,
 				6327AE361E480BB700ABEFF1 /* ViewController.swift in Sources */,
 				637238021EA5B89A008294B4 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				635039DE1EC56482003D4370 /* AVFoundationVC.swift in Sources */,
 				637237F81EA5B89A008294B4 /* AFHTTPRequestOperationManager.m in Sources */,
 				637237FE1EA5B89A008294B4 /* AFURLRequestSerialization.m in Sources */,
 				6327AE341E480BB700ABEFF1 /* AppDelegate.swift in Sources */,
 				639C76041E53ED53009E3675 /* LianShiView.m in Sources */,
 				6327AE4D1E480EC300ABEFF1 /* RuntimeVC.m in Sources */,
 				6328A6371E6D3ACA00A817C1 /* SwiftProgramViewController.swift in Sources */,
+				63E960911ED288740064EA8A /* Student.swift in Sources */,
 				637238011EA5B89A008294B4 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				637237FC1EA5B89A008294B4 /* AFSecurityPolicy.m in Sources */,
 				6301DFC71E6D045B008045EA /* AnimationView.m in Sources */,
 				637238051EA5B89A008294B4 /* UIImageView+AFNetworking.m in Sources */,
 				63033A541EB1DE4300295342 /* PackageViewVC.m in Sources */,
+				63FF2B531EBB1F11004EB150 /* SwiftGrammar.swift in Sources */,
 				637237FB1EA5B89A008294B4 /* AFNetworkReachabilityManager.m in Sources */,
 				637238001EA5B89A008294B4 /* AFURLSessionManager.m in Sources */,
 				63A98F941E52A8A40088E81B /* AnimationVC.m in Sources */,
@@ -490,6 +525,7 @@
 				63718B591E4AAF49003D8BA9 /* DatabaseViewController.swift in Sources */,
 				637237FF1EA5B89A008294B4 /* AFURLResponseSerialization.m in Sources */,
 				637238041EA5B89A008294B4 /* UIButton+AFNetworking.m in Sources */,
+				63E9608F1ED287510064EA8A /* Hobby.swift in Sources */,
 				6372380B1EA5B8C5008294B4 /* AFNetworkingVC.m in Sources */,
 				63033A481EB1DD8D00295342 /* SecondVC.swift in Sources */,
 				63033A511EB1DE1A00295342 /* PullDownView.m in Sources */,
@@ -616,9 +652,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_CODE_COVERAGE = NO;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = QMS64XZLS3;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				ENABLE_TESTABILITY = NO;
 				INFOPLIST_FILE = StudyNotes/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -634,6 +672,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_CODE_COVERAGE = NO;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = QMS64XZLS3;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;

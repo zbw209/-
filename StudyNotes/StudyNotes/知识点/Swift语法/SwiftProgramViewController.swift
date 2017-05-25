@@ -10,11 +10,35 @@ import UIKit
 
 class SwiftProgramViewController: UIViewController {
 
+    
+     var abc = "123"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         
     }
 
 
 }
+
+
+//MARK:- 范式
+extension SwiftProgramViewController {
+
+    // 像是多态，父类指针指向子类对象
+    /*
+     
+     
+     */
+}
+
+class Person : NSObject {
+
+    func growup() {
+    
+        let vc = SwiftProgramViewController()
+    }
+    
+}
+
+

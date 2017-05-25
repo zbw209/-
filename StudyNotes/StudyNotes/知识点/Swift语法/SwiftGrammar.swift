@@ -10,4 +10,18 @@ import UIKit
 
 class SwiftGrammar: NSObject {
 
+    func test() {
+    
+        let vc = SwiftProgramViewController()
+        
+    }
+}
+
+
+class SubProgram : SwiftProgramViewController {
+    
+    
+    func test() {
+     
+    }
 }

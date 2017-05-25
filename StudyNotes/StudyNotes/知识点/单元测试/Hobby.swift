@@ -9,5 +9,13 @@
 import UIKit
 
 class Hobby: NSObject {
-
+    
+    class func yourHobby() {
+        
+    }
+    
+    func tellMe() -> Int {
+        return 10
+    }
+    
 }
