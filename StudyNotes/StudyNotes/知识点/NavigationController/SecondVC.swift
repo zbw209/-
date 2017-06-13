@@ -13,7 +13,7 @@ class SecondVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        print("\((#file).components(separatedBy: "/").last!) \(#line) \(#function) \(self.navigationController)")
+        print("\((#file).components(separatedBy: "/").last!) \(#line) \(#function) \(String(describing: self.navigationController))")
         var image = UIImage.init(named: "icon_back_normal")
         image = image?.withRenderingMode(UIImageRenderingMode.alwaysOriginal)
         //       image?.renderingMode = UIImageRenderingMode.alwaysOriginal

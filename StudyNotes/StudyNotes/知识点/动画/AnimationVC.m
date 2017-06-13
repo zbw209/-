@@ -33,7 +33,6 @@
  需要使用CoreGraphics和UIKit技术绘制视图内容的子类应该重写这个方法，并且实现方法。如果你的视图使用别的方式去设置它的内容就不要重写这个方法。例如，如果你的视图只是展示背景色或者是使用潜在的layer直接设置内容，这些都不需要重写这个方法。
  当这个方法被调用的时候，UIKit已经把view的图形绘制环境配置好了，你只用调用渲染图形内容的绘制方法和函数。特别的，UIKit为绘制创建并且配置了一个图形上下文，调整内容的转换以便图形上下文的原点匹配你的视图矩形范围的原点。你可以使用UIGraphicsGetCurrentContext函数获得一个图形上下文的引用（获取当前图形上下文对象），但是不要对图形上下文建立一个强引用因为在drawRect方法调用的时候他会改变。
 不需要手动调用，会在视图第一次加载的时候调用，后续的话视图调用setNeedDisplay方法的调用
- 
  */
 
 - (void)viewDidLoad {
@@ -44,6 +43,7 @@
 }
 
 - (void)coreGraphicsTest {
+    
     /* 图形上下文类 获取当前绘制图形的环境，就是与该图形相关的参数，保存绘图的信息，决定图片的输出
      需要跟view关联，才能将图片在view上显示
      
@@ -55,6 +55,7 @@
     AnimationView *view = [[AnimationView alloc]initWithFrame:CGRectMake(50, 50, 80, 80)];
     view.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:view];
+    
 
 }
 

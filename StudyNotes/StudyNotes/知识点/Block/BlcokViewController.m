@@ -8,7 +8,11 @@
 
 #import "BlcokViewController.h"
 
+typedef void(^block)();
+
 @interface BlcokViewController ()
+
+@property (nonatomic, weak) block test1;
 
 @end
 
@@ -16,12 +20,25 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
+    // 将该代码块存放在栈区，代码生命周期由系统控制。该代码块是一个局部变量，只会作用于viewDidLoad方法内，当该方法执行完毕后，会对该对象执行释放。在别处调用时已无法正常使用。
+    
+    block bl = ^(){
+        NSLog(@"%s,%d",__FUNCTION__,__LINE__);
+    };
+
+    _test1 = bl;
+    
+}
+
+- (IBAction)buttonPressed:(id)sender {
+    
+    // select name from table yuangongbiao where salary > (select salary from table where id = '')
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 /*

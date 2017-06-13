@@ -13,7 +13,6 @@ class AVFoundationVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         setupSubViews()
     }
 
