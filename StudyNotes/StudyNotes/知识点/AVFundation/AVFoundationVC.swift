@@ -33,5 +33,9 @@ class AVFoundationVC: UIViewController {
         self.view.layer.addSublayer(shapeLayer)
     }
     
+    
+    func readBook() -> Int {
+        return 1
+    }
 
 }
