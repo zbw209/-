@@ -26,12 +26,12 @@ struct abc {
     A.age = 10;
     A.name = "12345678";
     A.sex = 's';
-    
     A.age = 10;
     
     struct abc stu;
     stu.age = 100;
-    
+
+
 }
 
 /*

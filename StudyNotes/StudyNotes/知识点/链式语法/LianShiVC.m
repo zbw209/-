@@ -17,23 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    
-    NSLog(@"");
- 
-    
-}
-
-
-void aalog(NSString *formart,...) {
-
 }
 
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 
 @end
