@@ -6,4 +6,6 @@
 #import "LianShiVC.h"
 #import "StructVC.h"
 #import "MacroVC.h"
+#import "NSArrayVC.h"
+#import "StackViewController.h"
 

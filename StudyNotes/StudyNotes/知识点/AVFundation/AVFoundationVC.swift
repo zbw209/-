@@ -17,7 +17,7 @@ class AVFoundationVC: UIViewController {
     }
 
     func setupSubViews() {
-            let shapeLayer = CAShapeLayer()
+        let shapeLayer = CAShapeLayer()
         
         let path = UIBezierPath()
         path.move(to: CGPoint(x: 50, y: 50))
@@ -38,4 +38,5 @@ class AVFoundationVC: UIViewController {
         return 1
     }
 
+    
 }
