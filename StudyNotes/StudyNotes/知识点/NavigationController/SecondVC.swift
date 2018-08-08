@@ -10,6 +10,8 @@ import UIKit
 
 class SecondVC: UIViewController {
     
+    var abc : String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -22,7 +24,8 @@ class SecondVC: UIViewController {
         
         self.navigationController?.navigationBar.backIndicatorTransitionMaskImage = image
         
-//        self.navigationItem.backBarButtonItem = UIBarButtonItem.init(title: "1", style: UIBarButtonItemStyle.plain, target: nil, action: nil)
+
+        //        self.navigationItem.backBarButtonItem = UIBarButtonItem.init(title: "1", style: UIBarButtonItemStyle.plain, target: nil, action: nil)
         
         let label = UILabel.init(frame: CGRect.zero)
         label.textColor = UIColor.red
