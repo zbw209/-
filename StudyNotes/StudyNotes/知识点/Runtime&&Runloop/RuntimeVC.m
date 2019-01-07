@@ -32,7 +32,6 @@
     
     UIView *view = [[UIView alloc]init];
 
-    
 }
 
 - (void)getProperty:(Class)aClass {

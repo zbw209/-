@@ -8,6 +8,7 @@
 
 #import "BlcokViewController.h"
 
+#import "UIImageView+WebCache.h"
 
 @interface BlcokViewController ()
 
@@ -23,6 +24,13 @@
 
     NSMutableDictionary *dict = [NSMutableDictionary new];
     [dict setValue:@"123" forKey:@"123"];
+    
+    UIImageView *imageV = [[UIImageView alloc] initWithFrame:CGRectMake(50, 300, 100, 100)];
+    imageV.backgroundColor = [UIColor redColor];
+    [self.view addSubview:imageV];
+    
+    [imageV sd_setImageWithURL:[NSURL URLWithString:@"http://testhead.makezixun.com/news/picture/20181105/43a9bff732354a7d66a2f9f5d57c6c5e.gif"]];
+    
     
 }
 

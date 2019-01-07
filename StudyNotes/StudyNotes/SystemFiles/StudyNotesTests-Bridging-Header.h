@@ -8,4 +8,7 @@
 #import "MacroVC.h"
 #import "NSArrayVC.h"
 #import "StackViewController.h"
+#import "BlcokViewController.h"
+#import "DyldViewController.h"
+
 #import "RunLoopVC.h"

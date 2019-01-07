@@ -26,7 +26,7 @@ typedef enum : NSUInteger {
 
 @property (nonatomic, assign) BOOL enableBounces;
 
-+ (instancetype)pullDownViewWithFrame:(CGRect)frame;
++ (instancetype)pullDownViewWithFrame:(CGRect)frame; 
 
 - (void)showAnimation;
 

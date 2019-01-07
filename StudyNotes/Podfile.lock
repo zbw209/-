@@ -1,0 +1,17 @@
+PODS:
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - YYAsyncLayer (1.0)
+
+DEPENDENCIES:
+  - SDWebImage (~> 3.8.2)
+  - YYAsyncLayer
+
+SPEC CHECKSUMS:
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  YYAsyncLayer: df6b01ebc695c5f6b4c15dd5c23fa3e081eb25c0
+
+PODFILE CHECKSUM: 881bb243ed57749a0968e0e216346a80fe5da583
+
+COCOAPODS: 1.4.0
