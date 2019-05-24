@@ -17,7 +17,7 @@ class SecondVC: UIViewController {
         
         print("\((#file).components(separatedBy: "/").last!) \(#line) \(#function) \(String(describing: self.navigationController))")
         var image = UIImage.init(named: "icon_back_normal")
-        image = image?.withRenderingMode(UIImageRenderingMode.alwaysOriginal)
+        image = image?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
         //       image?.renderingMode = UIImageRenderingMode.alwaysOriginal
         
         self.navigationController?.navigationBar.backIndicatorImage = image

@@ -31,8 +31,8 @@ class RuntimeViewController: UIViewController {
         
         print("methodListCount = \(methodListCount)")
         
-        for index in 0..<numericCast(methodListCount) {
-            print("methodName is \(method_getName(methodList?[index]))")
-        }
+//        for index in 0..<numericCast(methodListCount) {
+//            print("methodName is \(method_getName(methodList?[index]))")
+//        }
     }
 }

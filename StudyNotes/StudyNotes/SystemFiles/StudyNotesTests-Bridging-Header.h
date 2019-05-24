@@ -10,5 +10,12 @@
 #import "StackViewController.h"
 #import "BlcokViewController.h"
 #import "DyldViewController.h"
+#import "RACViewController.h"
+#import "OperationController.h"
+#import "GCDController.h"
+#import "YYTextController.h"
+#import "ImageDrawController.h"
+#import "LockController.h"
+#import "VideoController.h"
 
 #import "RunLoopVC.h"
