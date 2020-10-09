@@ -8,7 +8,7 @@
 #import "MacroVC.h"
 #import "NSArrayVC.h"
 #import "StackViewController.h"
-#import "BlcokViewController.h"
+#import "BlockViewController.h"
 #import "DyldViewController.h"
 #import "RACViewController.h"
 #import "OperationController.h"
@@ -17,5 +17,7 @@
 #import "ImageDrawController.h"
 #import "LockController.h"
 #import "VideoController.h"
+#import "OVTheoryController.h"
 
 #import "RunLoopVC.h"
+

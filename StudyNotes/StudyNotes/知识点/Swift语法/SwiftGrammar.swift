@@ -21,7 +21,7 @@ class SwiftGrammar: NSObject {
 class SubProgram : SwiftProgramViewController {
     
     
-    func test() {
+    override func test() {
      
     }
 }

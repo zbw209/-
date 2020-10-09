@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:multi-project/multi-project.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:StudyNotes.xcodeproj">
    </FileRef>
    <FileRef

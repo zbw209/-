@@ -1,6 +1,8 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
+source 'https://github.com/CocoaPods/Specs.git'
+
 target 'StudyNotes' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
@@ -12,9 +14,22 @@ target 'StudyNotes' do
     # Pods for testing
   end
 
+  # 忽略引入库的所有警告
+  inhibit_all_warnings!
+  
+  
  pod 'YYAsyncLayer'
  pod 'YYText'
  pod 'SDWebImage', '~> 3.8.2'
  pod 'ReactiveObjC'
-
+ pod 'MGJRouter'
+ pod 'CTMediator'
+ pod 'Alamofire', '~> 5.0.4'
+ 
 end
+
+#target 'multi-project' do
+#
+#  pod 'FluentDarkModeKit'
+#
+#end

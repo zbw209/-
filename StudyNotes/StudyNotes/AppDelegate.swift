@@ -13,15 +13,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
      
         self.window = UIWindow.init(frame: UIScreen.main.bounds)
         self.window?.backgroundColor = UIColor.white
         self.window?.makeKeyAndVisible()
         let  nav = UINavigationController()
-        nav.addChild(GCDController())
-        self.window?.rootViewController = VideoController()
+        nav.addChild(UIStoryboard(name: "Block", bundle: Bundle.main).instantiateInitialViewController() ?? UIViewController())
+        self.window?.rootViewController = nav
+        
         return true
     }
 

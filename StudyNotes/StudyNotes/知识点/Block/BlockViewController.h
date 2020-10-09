@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BlcokViewController : UIViewController
+@interface BlockViewController : UIViewController
 
 
 @end

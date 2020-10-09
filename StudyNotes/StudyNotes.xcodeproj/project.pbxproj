@@ -19,12 +19,13 @@
 		63033A541EB1DE4300295342 /* PackageViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 63033A531EB1DE4300295342 /* PackageViewVC.m */; };
 		630BA04F2191428B005A8C36 /* OptimizeTableViewCellAnimateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630BA04E2191428B005A8C36 /* OptimizeTableViewCellAnimateVC.swift */; };
 		630F22111EE53B9A00EF24F1 /* Block.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630F22101EE53B9A00EF24F1 /* Block.storyboard */; };
-		630F22141EE53BC900EF24F1 /* BlcokViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 630F22131EE53BC900EF24F1 /* BlcokViewController.m */; };
+		630F22141EE53BC900EF24F1 /* BlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 630F22131EE53BC900EF24F1 /* BlockViewController.m */; };
 		630F3AE3210F12E90029EDE8 /* ZThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 630F3AE2210F12E90029EDE8 /* ZThread.m */; };
 		6319E040221AD2680096EC19 /* RACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6319E03E221AD2680096EC19 /* RACViewController.m */; };
 		631C08F4224B5269006972D3 /* AsyncView.m in Sources */ = {isa = PBXBuildFile; fileRef = 631C08F3224B5269006972D3 /* AsyncView.m */; };
 		631C43F91EEF8ABD003A02EA /* StudyNotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631C43F81EEF8ABD003A02EA /* StudyNotesTests.swift */; };
 		631C44051EEF957C003A02EA /* Hobby.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E9608E1ED287510064EA8A /* Hobby.swift */; };
+		631D7D1724551CAE00619295 /* DesignPatternController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631D7D1624551CAE00619295 /* DesignPatternController.swift */; };
 		631E5A39225F30350025CD58 /* VideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 631E5A38225F30350025CD58 /* VideoController.m */; };
 		6322229F1E499F69002361B2 /* Runtime.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6322229E1E499F69002361B2 /* Runtime.storyboard */; };
 		6327AE341E480BB700ABEFF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6327AE331E480BB700ABEFF1 /* AppDelegate.swift */; };
@@ -33,6 +34,9 @@
 		6327AE491E480CAE00ABEFF1 /* RuntimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6327AE481E480CAE00ABEFF1 /* RuntimeViewController.swift */; };
 		6327AE4D1E480EC300ABEFF1 /* RuntimeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6327AE4C1E480EC300ABEFF1 /* RuntimeVC.m */; };
 		6328A6371E6D3ACA00A817C1 /* SwiftProgramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6328A6361E6D3ACA00A817C1 /* SwiftProgramViewController.swift */; };
+		6332B55F24285D2400BF728C /* OVTheoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6332B55E24285D2400BF728C /* OVTheoryController.m */; };
+		6338AF6C247BA03E004C2D54 /* CrashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6338AF6B247BA03E004C2D54 /* CrashViewController.m */; };
+		6338AF6F247BB13E004C2D54 /* AlamofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6338AF6E247BB13E004C2D54 /* AlamofireViewController.swift */; };
 		633DD4322121317800D110C0 /* QueueVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 633DD4312121317800D110C0 /* QueueVC.m */; };
 		6347D4432118317700EF0516 /* RunLoopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6347D4422118317700EF0516 /* RunLoopVC.m */; };
 		635039DE1EC56482003D4370 /* AVFoundationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635039DD1EC56482003D4370 /* AVFoundationVC.swift */; };
@@ -66,6 +70,7 @@
 		63AE218C216AF2F200E34ED8 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AE217A216AF2F200E34ED8 /* AFSecurityPolicy.m */; };
 		63AE218E216AF35F00E34ED8 /* AFNetworkingNote.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AE218D216AF35F00E34ED8 /* AFNetworkingNote.m */; };
 		63BDD51A20C4CDF800D4EE81 /* NSArrayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BDD51920C4CDF800D4EE81 /* NSArrayVC.m */; };
+		63D87A8F245687E3001A123A /* UnitTestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D87A8E245687E3001A123A /* UnitTestFile.swift */; };
 		63E12D9C208ED4B60059F691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E12D9B208ED4B60059F691 /* Assets.xcassets */; };
 		63E9608F1ED287510064EA8A /* Hobby.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E9608E1ED287510064EA8A /* Hobby.swift */; };
 		63E960911ED288740064EA8A /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E960901ED288740064EA8A /* Student.swift */; };
@@ -109,8 +114,8 @@
 		63033A531EB1DE4300295342 /* PackageViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PackageViewVC.m; sourceTree = "<group>"; };
 		630BA04E2191428B005A8C36 /* OptimizeTableViewCellAnimateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptimizeTableViewCellAnimateVC.swift; sourceTree = "<group>"; };
 		630F22101EE53B9A00EF24F1 /* Block.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Block.storyboard; sourceTree = "<group>"; };
-		630F22121EE53BC900EF24F1 /* BlcokViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlcokViewController.h; sourceTree = "<group>"; };
-		630F22131EE53BC900EF24F1 /* BlcokViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlcokViewController.m; sourceTree = "<group>"; };
+		630F22121EE53BC900EF24F1 /* BlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockViewController.h; sourceTree = "<group>"; };
+		630F22131EE53BC900EF24F1 /* BlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockViewController.m; sourceTree = "<group>"; };
 		630F3AE1210F12E90029EDE8 /* ZThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZThread.h; sourceTree = "<group>"; };
 		630F3AE2210F12E90029EDE8 /* ZThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZThread.m; sourceTree = "<group>"; };
 		630F3AE5211013FD0029EDE8 /* DocumentHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DocumentHeader.h; sourceTree = "<group>"; };
@@ -122,6 +127,7 @@
 		631C43F81EEF8ABD003A02EA /* StudyNotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyNotesTests.swift; sourceTree = "<group>"; };
 		631C43FA1EEF8ABD003A02EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		631C44021EEF8F01003A02EA /* StudyNotesTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "StudyNotesTests-Bridging-Header.h"; path = "StudyNotes/SystemFiles/StudyNotesTests-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		631D7D1624551CAE00619295 /* DesignPatternController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPatternController.swift; sourceTree = "<group>"; };
 		631E5A37225F30350025CD58 /* VideoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoController.h; sourceTree = "<group>"; };
 		631E5A38225F30350025CD58 /* VideoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoController.m; sourceTree = "<group>"; };
 		6322229E1E499F69002361B2 /* Runtime.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Runtime.storyboard; sourceTree = "<group>"; };
@@ -133,12 +139,19 @@
 		6327AE4B1E480EC300ABEFF1 /* RuntimeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeVC.h; sourceTree = "<group>"; };
 		6327AE4C1E480EC300ABEFF1 /* RuntimeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeVC.m; sourceTree = "<group>"; };
 		6328A6361E6D3ACA00A817C1 /* SwiftProgramViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftProgramViewController.swift; sourceTree = "<group>"; };
+		632926AD2429BD25004946AC /* QA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QA.h; sourceTree = "<group>"; };
+		6332B55D24285D2400BF728C /* OVTheoryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OVTheoryController.h; sourceTree = "<group>"; };
+		6332B55E24285D2400BF728C /* OVTheoryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OVTheoryController.m; sourceTree = "<group>"; };
+		6338AF6A247BA03E004C2D54 /* CrashViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrashViewController.h; sourceTree = "<group>"; };
+		6338AF6B247BA03E004C2D54 /* CrashViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrashViewController.m; sourceTree = "<group>"; };
+		6338AF6E247BB13E004C2D54 /* AlamofireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireViewController.swift; sourceTree = "<group>"; };
 		633DD4302121317800D110C0 /* QueueVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QueueVC.h; sourceTree = "<group>"; };
 		633DD4312121317800D110C0 /* QueueVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueueVC.m; sourceTree = "<group>"; };
 		6347D4412118317700EF0516 /* RunLoopVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLoopVC.h; sourceTree = "<group>"; };
 		6347D4422118317700EF0516 /* RunLoopVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoopVC.m; sourceTree = "<group>"; };
 		635039DD1EC56482003D4370 /* AVFoundationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVFoundationVC.swift; sourceTree = "<group>"; };
 		635039DF1EC5648C003D4370 /* AVFoundation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AVFoundation.storyboard; sourceTree = "<group>"; };
+		6357A6812465629300F39F73 /* BlockScript.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = BlockScript.sh; sourceTree = "<group>"; };
 		63718B561E4AAEED003D8BA9 /* Database.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Database.storyboard; sourceTree = "<group>"; };
 		63718B581E4AAF49003D8BA9 /* DatabaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseViewController.swift; sourceTree = "<group>"; };
 		63718B5A1E4AAF5A003D8BA9 /* DatabaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseVC.h; sourceTree = "<group>"; };
@@ -195,6 +208,7 @@
 		63AE218D216AF35F00E34ED8 /* AFNetworkingNote.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworkingNote.m; sourceTree = "<group>"; };
 		63BDD51820C4CDF800D4EE81 /* NSArrayVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSArrayVC.h; sourceTree = "<group>"; };
 		63BDD51920C4CDF800D4EE81 /* NSArrayVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSArrayVC.m; sourceTree = "<group>"; };
+		63D87A8E245687E3001A123A /* UnitTestFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestFile.swift; sourceTree = "<group>"; };
 		63E12D9B208ED4B60059F691 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63E9608E1ED287510064EA8A /* Hobby.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hobby.swift; sourceTree = "<group>"; };
 		63E960901ED288740064EA8A /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
@@ -312,8 +326,9 @@
 			isa = PBXGroup;
 			children = (
 				630F22101EE53B9A00EF24F1 /* Block.storyboard */,
-				630F22121EE53BC900EF24F1 /* BlcokViewController.h */,
-				630F22131EE53BC900EF24F1 /* BlcokViewController.m */,
+				630F22121EE53BC900EF24F1 /* BlockViewController.h */,
+				630F22131EE53BC900EF24F1 /* BlockViewController.m */,
+				6357A6812465629300F39F73 /* BlockScript.sh */,
 			);
 			path = Block;
 			sourceTree = "<group>";
@@ -322,6 +337,7 @@
 			isa = PBXGroup;
 			children = (
 				630F3AE5211013FD0029EDE8 /* DocumentHeader.h */,
+				632926AD2429BD25004946AC /* QA.h */,
 			);
 			path = "文档";
 			sourceTree = "<group>";
@@ -342,6 +358,14 @@
 				631C43FA1EEF8ABD003A02EA /* Info.plist */,
 			);
 			path = StudyNotesTests;
+			sourceTree = "<group>";
+		};
+		631D7D1524551C7D00619295 /* 设计模式 */ = {
+			isa = PBXGroup;
+			children = (
+				631D7D1624551CAE00619295 /* DesignPatternController.swift */,
+			);
+			path = "设计模式";
 			sourceTree = "<group>";
 		};
 		6327AE271E480BB700ABEFF1 = {
@@ -377,6 +401,9 @@
 		6327AE451E480BEE00ABEFF1 /* 知识点 */ = {
 			isa = PBXGroup;
 			children = (
+				6338AF69247B9FD2004C2D54 /* 崩溃信息处理 */,
+				631D7D1524551C7D00619295 /* 设计模式 */,
+				6332B55C24285CE700BF728C /* OC原理 */,
 				63030C8C222D369D00B7C123 /* 图形绘制 */,
 				6384698822238AAD007A3E27 /* 多线程 */,
 				6319E03D221AD2680096EC19 /* RAC */,
@@ -421,6 +448,32 @@
 				63FF2B521EBB1F11004EB150 /* SwiftGrammar.swift */,
 			);
 			path = "Swift语法";
+			sourceTree = "<group>";
+		};
+		6332B55C24285CE700BF728C /* OC原理 */ = {
+			isa = PBXGroup;
+			children = (
+				6332B55D24285D2400BF728C /* OVTheoryController.h */,
+				6332B55E24285D2400BF728C /* OVTheoryController.m */,
+			);
+			path = "OC原理";
+			sourceTree = "<group>";
+		};
+		6338AF69247B9FD2004C2D54 /* 崩溃信息处理 */ = {
+			isa = PBXGroup;
+			children = (
+				6338AF6A247BA03E004C2D54 /* CrashViewController.h */,
+				6338AF6B247BA03E004C2D54 /* CrashViewController.m */,
+			);
+			path = "崩溃信息处理";
+			sourceTree = "<group>";
+		};
+		6338AF6D247BB109004C2D54 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				6338AF6E247BB13E004C2D54 /* AlamofireViewController.swift */,
+			);
+			path = Alamofire;
 			sourceTree = "<group>";
 		};
 		635039DC1EC56447003D4370 /* AVFundation */ = {
@@ -513,6 +566,7 @@
 		63AE211E216AF0CB00E34ED8 /* 三方框架 */ = {
 			isa = PBXGroup;
 			children = (
+				6338AF6D247BB109004C2D54 /* Alamofire */,
 				638469A02227C388007A3E27 /* YYText */,
 				63AE2156216AF2F200E34ED8 /* AFNetworking */,
 			);
@@ -601,6 +655,7 @@
 			children = (
 				63E9608E1ED287510064EA8A /* Hobby.swift */,
 				63E960901ED288740064EA8A /* Student.swift */,
+				63D87A8E245687E3001A123A /* UnitTestFile.swift */,
 			);
 			path = "单元测试";
 			sourceTree = "<group>";
@@ -675,7 +730,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = zhou;
 				TargetAttributes = {
 					631C43F51EEF8ABD003A02EA = {
@@ -687,7 +742,7 @@
 					};
 					6327AE2F1E480BB700ABEFF1 = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = QMS64XZLS3;
+						DevelopmentTeam = K58393FUU3;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
@@ -788,6 +843,9 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-StudyNotes/Pods-StudyNotes-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
+				"${BUILT_PRODUCTS_DIR}/MGJRouter/MGJRouter.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/YYAsyncLayer/YYAsyncLayer.framework",
@@ -795,6 +853,9 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MGJRouter.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYAsyncLayer.framework",
@@ -835,6 +896,7 @@
 				638469A32227C388007A3E27 /* YYTextController.m in Sources */,
 				63F7553C208F0DC2006C8F5B /* MacroVC.m in Sources */,
 				6347D4432118317700EF0516 /* RunLoopVC.m in Sources */,
+				6338AF6C247BA03E004C2D54 /* CrashViewController.m in Sources */,
 				639C76041E53ED53009E3675 /* LianShiView.m in Sources */,
 				630F3AE3210F12E90029EDE8 /* ZThread.m in Sources */,
 				63AE2181216AF2F200E34ED8 /* UIImageView+AFNetworking.m in Sources */,
@@ -846,16 +908,20 @@
 				63E960911ED288740064EA8A /* Student.swift in Sources */,
 				6384698B22238AD5007A3E27 /* OperationController.m in Sources */,
 				639A953821DDE01B004D1CD6 /* DyldViewController.m in Sources */,
-				630F22141EE53BC900EF24F1 /* BlcokViewController.m in Sources */,
+				630F22141EE53BC900EF24F1 /* BlockViewController.m in Sources */,
 				63F7553F20904B68006C8F5B /* LinkList.c in Sources */,
 				63AE218A216AF2F200E34ED8 /* AFURLRequestSerialization.m in Sources */,
 				63AE218C216AF2F200E34ED8 /* AFSecurityPolicy.m in Sources */,
+				63D87A8F245687E3001A123A /* UnitTestFile.swift in Sources */,
 				6301DFC71E6D045B008045EA /* AnimationView.m in Sources */,
 				63033A541EB1DE4300295342 /* PackageViewVC.m in Sources */,
 				63FF2B531EBB1F11004EB150 /* SwiftGrammar.swift in Sources */,
+				631D7D1724551CAE00619295 /* DesignPatternController.swift in Sources */,
+				6338AF6F247BB13E004C2D54 /* AlamofireViewController.swift in Sources */,
 				63A98F941E52A8A40088E81B /* AnimationVC.m in Sources */,
 				6384698E222397F7007A3E27 /* GCDController.m in Sources */,
 				63AE2182216AF2F200E34ED8 /* UIButton+AFNetworking.m in Sources */,
+				6332B55F24285D2400BF728C /* OVTheoryController.m in Sources */,
 				63AE217E216AF2F200E34ED8 /* UIProgressView+AFNetworking.m in Sources */,
 				63AE2185216AF2F200E34ED8 /* AFAutoPurgingImageCache.m in Sources */,
 				63AE2183216AF2F200E34ED8 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
@@ -922,7 +988,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "/Users/zhoubiwen/Desktop/StudyNotes/StudyNotes/StudyNotesTests/StudyNotesTests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudyNotes.app/StudyNotes";
 			};
 			name = Debug;
@@ -939,7 +1005,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zbw.StudyNotesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "/Users/zhoubiwen/Desktop/StudyNotes/StudyNotes/StudyNotesTests/StudyNotesTests-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudyNotes.app/StudyNotes";
 			};
 			name = Release;
@@ -948,20 +1014,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -997,20 +1072,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1043,15 +1127,25 @@
 				CLANG_ENABLE_CODE_COVERAGE = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				DEVELOPMENT_TEAM = QMS64XZLS3;
+				DEVELOPMENT_TEAM = K58393FUU3;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				ENABLE_TESTABILITY = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CTMediator/CTMediator.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MGJRouter/MGJRouter.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ReactiveObjC/ReactiveObjC.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage/SDWebImage.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YYAsyncLayer/YYAsyncLayer.framework/Headers\"",
+					"$(SRCROOT)/multi-project/**",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YYText/YYText.framework/Headers\"",
+				);
 				INFOPLIST_FILE = StudyNotes/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhou.StudyNotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/zhoubiwen/Desktop/StudyNotes/StudyNotes/StudyNotes/SystemFiles/StudyNotesTests-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/StudyNotes/SystemFiles/StudyNotesTests-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1066,14 +1160,24 @@
 				CLANG_ENABLE_CODE_COVERAGE = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				DEVELOPMENT_TEAM = QMS64XZLS3;
+				DEVELOPMENT_TEAM = K58393FUU3;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CTMediator/CTMediator.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MGJRouter/MGJRouter.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ReactiveObjC/ReactiveObjC.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage/SDWebImage.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YYAsyncLayer/YYAsyncLayer.framework/Headers\"",
+					"$(SRCROOT)/multi-project/**",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YYText/YYText.framework/Headers\"",
+				);
 				INFOPLIST_FILE = StudyNotes/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhou.StudyNotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/zhoubiwen/Desktop/StudyNotes/StudyNotes/StudyNotes/SystemFiles/StudyNotesTests-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/StudyNotes/SystemFiles/StudyNotesTests-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
 				SWIFT_VERSION = 5.0;
 			};

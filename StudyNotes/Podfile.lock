@@ -1,4 +1,7 @@
 PODS:
+  - Alamofire (5.0.4)
+  - CTMediator (28)
+  - MGJRouter (0.10.0)
   - ReactiveObjC (3.1.0)
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
@@ -7,24 +10,33 @@ PODS:
   - YYText (1.0.7)
 
 DEPENDENCIES:
+  - Alamofire (~> 5.0.4)
+  - CTMediator
+  - MGJRouter
   - ReactiveObjC
   - SDWebImage (~> 3.8.2)
   - YYAsyncLayer
   - YYText
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - CTMediator
+    - MGJRouter
     - ReactiveObjC
     - SDWebImage
     - YYAsyncLayer
     - YYText
 
 SPEC CHECKSUMS:
+  Alamofire: 0fe5fd24b4298dc377a6550da7d5f1b30e286fcb
+  CTMediator: 6a05e9f1098b2d2fbc9d19cc7f28e94c3a08b5d2
+  MGJRouter: 15d94541eb2cc81eff7d577337288feb7ae9575f
   ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   YYAsyncLayer: df6b01ebc695c5f6b4c15dd5c23fa3e081eb25c0
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: 4e745e0f8a8edf16d2d690a0132aad81b2b7cca9
+PODFILE CHECKSUM: b6700283f28f0ff15e2b712ebc9e207a47cdb38b
 
-COCOAPODS: 1.6.0.beta.2
+COCOAPODS: 1.8.3
